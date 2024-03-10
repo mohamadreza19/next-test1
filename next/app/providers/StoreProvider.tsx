@@ -1,5 +1,5 @@
 'use client';
-import { ReactNode } from 'react';
+import { ReactNode, useEffect, useState } from 'react';
 import { Provider } from 'react-redux';
 import store from '@store/store';
 interface Props {
@@ -7,5 +7,13 @@ interface Props {
 }
 
 export default function StoreProvider({ children }: Props) {
-  return <Provider store={store}>{children}</Provider>;
+  const [isInital, setIsInital] = useState<boolean>(false);
+
+  useEffect(() => {
+    setIsInital(true);
+  }, []);
+
+  if (isInital) return <Provider store={store}>{children}</Provider>;
+
+  return null;
 }

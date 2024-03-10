@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "author": "mmd",
+      "body": " Lorem  Lorem ipsum dolor sit amet consectetur adipisicing elit. Non numquam, sunt repudiandae iure dolorem asperiores reiciendis et quos quod eligendi, magnam adipisci, quibusdam magni ea recusandae placeat. Commodi, nulla et.",
+      "comments": [
+        {
+          "id": "comment-1",
+          "comment": "comment-test-1"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "author": "ali",
+      "body": " Lorem  Lorem ipsum dolor sit amet consectetur adipisicing elit. Non numquam, sunt repudiandae iure dolorem asperiores reiciendis et quos quod eligendi, magnam adipisci, quibusdam magni ea recusandae placeat. Commodi, nulla et.",
+      "comments": [
+        {
+          "id": "comment-2",
+          "comment": "comment-test--2"
+        }
+      ]
+    }
+  ]
+}

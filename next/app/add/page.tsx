@@ -1,4 +1,5 @@
 'use client';
+
 export default function () {
-  return <div>add</div>;
+  return <div className="">test</div>;
 }

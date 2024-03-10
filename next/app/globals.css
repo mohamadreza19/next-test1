@@ -2,3 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --title-md: 2rem;
+  --font-md: 1rem;
+  --font-sm: 0.8rem;
+  --radius-12: 12px;
+}
+
+/* CONTAINERS */
+.post-container {
+  width: 400px;
+  min-height: 300px;
+  padding: 20px 10px;
+}
+/* TYPOGRAOHY */
+
+.title-md {
+  font-size: var(--title-md);
+}
+.font-md {
+  font-size: var(--font-md);
+}
+.font-sm {
+  font-size: var(--font-sm);
+}
+
+/* BORDER RADIUS */
+
+/* MODULES */
+.post-box {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  border-radius: var(--radius-12);
+}
